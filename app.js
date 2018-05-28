@@ -70,3 +70,18 @@ Crear un objeto constructor llamado rectangle que tenga las propiedades base y h
 El valor de estas propiedades son los parámetros ingresados
 Crea tres instancias y muestra el resultado del área
 */
+
+class Rectangle {
+  constructor (base, height) {
+    this.base = base,
+    this.height = height
+  }
+  //metodo: comportamiento de mi objeto
+  area() {
+    return this.base * this.height;
+  }
+}
+
+let rectangulito = new Rectangle(10, 5);
+let rectangulote = new Rectangle(20, 10);
+let rectangulais = new Rectangle(15, 5);
